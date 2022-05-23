@@ -84,6 +84,7 @@ type_map = [
 
 file = open("level0.json", "w")
 file.write("{\n")
+file.write("\t\"level-id:\":0,\n")
 file.write("\t\"level-name\":\"Tutorial\",\n")
 file.write("\t\"level-map\":{\n")
 for i in range(len(level)):
