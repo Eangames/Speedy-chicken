@@ -10,12 +10,12 @@ level = [
     64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
     64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
     64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
-    64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,
+    24,64,64,64,64,64,64,64,64,64,64,64,64,64,64,32,
     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 ]
 
 type_map = [
-    "ground-left-up",
+    "ground-left-up", #0
     "gound-up",
     "ground-up-right",
     "bridge-length-1",
@@ -23,7 +23,7 @@ type_map = [
     "bridge-left",
     "bridge-middle",
     "bridge-right",
-    "ground-left",
+    "ground-left", #8
     "ground",
     "ground-right",
     "ground-all",
@@ -31,7 +31,7 @@ type_map = [
     "egg-collectable",
     "",
     "",
-    "ground-left-down",
+    "ground-left-down", #16
     "ground-down",
     "ground-down-right",
     "ground-topleft",
@@ -39,7 +39,7 @@ type_map = [
     "ground-bottomright",
     "",
     "",
-    "start",
+    "start", #24
     "button",
     "pressureplate",
     "door-closed",
@@ -47,7 +47,7 @@ type_map = [
     "",
     "",
     "",
-    "end",
+    "end", #32
     "button-pressed",
     "pressureplate-pressed",
     "door-open",
@@ -55,7 +55,7 @@ type_map = [
     "",
     "",
     "",
-    "sign-arrow-bottomright",
+    "sign-arrow-bottomright", #40
     "sign-arrow-topright",
     "sign-arrow-topleft",
     "sign-arrow-bottomleft",
@@ -63,7 +63,7 @@ type_map = [
     "",
     "",
     "",
-    "sign",
+    "sign", #48
     "sign-empty",
     "sign-arrow-right",
     "sign-arrow-left",
@@ -71,7 +71,7 @@ type_map = [
     "",
     "",
     "",
-    "water-anim-0",
+    "water-anim-0", #56
     "water-anim-1",
     "water-anim-2",
     "water-anim-3",
@@ -79,7 +79,7 @@ type_map = [
     "",
     "decoration7",
     "decoration8",
-    ""
+    "" #64
 ]
 
 file = open("level0.json", "w")
