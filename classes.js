@@ -1,5 +1,4 @@
 
-levelAmount = 2;
 levelNames = [
     "Tutorial",
     "Level 1",
@@ -69,8 +68,9 @@ class Level{
 }
 
 levelsManager = new Levels();
-for(let i=0; i<levelAmount; i++){
+for(let i=0; i<levelNames.length; i++){
     levelsManager.levels.push(new Level(i, levelNames[i], levelMaps[i]));
 }
 
 console.log(levelsManager);
+levelsManager.getNextLevel();
