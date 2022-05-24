@@ -71,6 +71,3 @@ levelsManager = new Levels();
 for(let i=0; i<levelNames.length; i++){
     levelsManager.levels.push(new Level(i, levelNames[i], levelMaps[i]));
 }
-
-console.log(levelsManager);
-levelsManager.getNextLevel();
