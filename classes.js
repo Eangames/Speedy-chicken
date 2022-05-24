@@ -1,8 +1,8 @@
 
 levelNames = [
-    "Tutorial",
-    "Level 1",
-    "Level 2"
+    "Test Tutorial",
+    "Test Level 1",
+    "Test Level 2"
 ];
 levelMaps = [
     [
