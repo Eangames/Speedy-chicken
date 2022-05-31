@@ -1,4 +1,9 @@
 
+//Button placements: (these placements are in the menu's)
+//Play: (x:80, y:64); x en y zijn vanaf 0, x: van links naar rechts, y: van boven naar beneden
+//Info: (x:144, y:64)
+//Logo: (x:58, y:42)
+
 levelNames = [
     "Test Tutorial",
     "Test Level 1",
